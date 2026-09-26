@@ -43,11 +43,11 @@ sections:
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
   
-  # Experience Timeline
+  # Experience and Education Timeline
   - block: resume-experience
     id: experience
     content:
-      title: Experience
+      title: "Experience & Education"
       date_format: Jan 2006
     design:
       columns: '1'
@@ -55,21 +55,6 @@ sections:
         color:
           light: "#ffffff"
           dark: "#0d0d12"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-
-  # Education Timeline
-  - block: resume-education
-    id: education
-    content:
-      title: Education
-      date_format: Jan 2006
-    design:
-      columns: '1'
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
