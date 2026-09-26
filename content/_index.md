@@ -43,75 +43,16 @@ sections:
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
 
-  # Experience Timeline
+  # Experience & Education Timeline (single block renders both from me.yaml)
   - block: resume-experience
     id: experience
-    content:
-      title: Experience
-      date_format: Jan 2006
-      items:
-        - title: "Corporate & Investment Banking Intern (CIB)"
-          company: "NTT DATA Europe & Latam"
-          location: "Oviedo, Spain"
-          date_start: "2026-01-01"
-          date_end: "2026-06-30"
-          description: |2-
-            * Designed and implemented an AI-driven process optimization solution for Banco Santander's Confirming area (300K EUR budget)
-            * Engineered automated data pipelines (Python, FastAPI, Pandas) and integrated graph databases to optimize Global Transaction Banking workflows
-            * Automated trading operations and financial reconciliation pipelines using n8n orchestration and NLP, drastically reducing manual intervention
-        - title: "Advanced Mathematics & Physics Tutor"
-          company: "Freelance"
-          location: "Asturias, Spain"
-          date_start: "2021-09-01"
-          date_end: "2023-06-30"
-          description: |2-
-            * Instructed students in Multivariable Optimization, Differential Calculus, and Finite Difference Methods
     design:
+      is_education_first: false
       columns: '1'
       background:
         color:
           light: "#ffffff"
           dark: "#0d0d12"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-
-  # Education Timeline
-  - block: resume-experience
-    id: education
-    content:
-      title: Education
-      date_format: Jan 2006
-      items:
-        - title: "Master in Financial Engineering & Innovation (MEFI)"
-          company: "UPM/BME"
-          location: "Madrid, Spain"
-          date_start: "2026-09-01"
-          date_end: "2027-12-31"
-          description: |2-
-            * Awarded 50% Excellence Scholarship
-            * Focus on Quantitative Finance, Portfolio Risk Optimization, and Statistical Arbitrage
-        - title: "Double Degree in Mathematics and Physics"
-          company: "University of Oviedo"
-          location: "Oviedo, Spain"
-          date_start: "2021-09-01"
-          date_end: "2026-06-30"
-          description: |2-
-            * GPA: 9.5/10 (Ranked 2nd in class)
-            * Awarded 11 Honors in core quantitative subjects including Probability, PDEs, Optimization, and Finite Differences
-            * Pre-University: EBAU Score of 13.7/14 (Ranked Top 10 in Asturias)
-        - title: "Erasmus+ (Computer Science & AI Exchange Program)"
-          company: "University of Split"
-          location: "Split, Croatia"
-          date_start: "2024-09-01"
-          date_end: "2025-06-30"
-          description: |2-
-            * Specialized in advanced Deep Learning architectures (CNNs, LSTMs) and AI algorithms
-    design:
-      columns: '1'
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
