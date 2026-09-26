@@ -60,7 +60,6 @@ sections:
             * Designed and implemented an AI-driven process optimization solution for Banco Santander's Confirming area (€300,000 budget).
             * Engineered automated data pipelines (Python, FastAPI, Pandas) and integrated graph databases to optimize Global Transaction Banking workflows.
             * Automated trading operations and financial reconciliation pipelines using n8n orchestration and NLP, drastically reducing manual intervention.
-            * Modeled and monitored credit risk parameters, supporting quantitative infrastructure for Tier-1 financial entities.
         - title: Advanced Mathematics & Physics Tutor
           company: Freelance
           location: Asturias, Spain
