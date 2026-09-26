@@ -7,7 +7,7 @@ name:
   family: Herrera
 postnominals: []
 status:
-  icon: "📈"
+  icon: "\U0001F4C8"
 role: Quantitative Finance Professional
 email: anxoherrera@gmail.com
 bio: |
@@ -34,40 +34,6 @@ interests:
   - AI & Process Optimization
   - Data Pipelines
   - Mountaineering
-
-experience:
-  - role: Corporate & Investment Banking Intern (CIB)
-    org: NTT DATA Europe & Latam
-    start: 2026-01-01
-    end: 2026-06-30
-    summary: |
-      Designed and implemented an AI-driven process optimization solution for Banco Santander's Confirming area (€300,000 budget).
-      Engineered automated data pipelines (Python, FastAPI, Pandas) and integrated graph databases to optimize Global Transaction Banking workflows.
-      Automated trading operations and financial reconciliation pipelines using n8n orchestration and NLP, drastically reducing manual intervention.
-  - role: Advanced Mathematics & Physics Tutor
-    org: Freelance
-    start: 2021-09-01
-    end: 2023-06-30
-    summary: |
-      Instructed students in Multivariable Optimization, Differential Calculus, and Finite Difference Methods.
-  - role: Master in Financial Engineering & Innovation (MEFI)
-    org: UPM/BME
-    start: 2026-09-01
-    end: 2027-12-31
-    summary: |
-      Awarded 50% Excellence Scholarship. Focus on Quantitative Finance, Portfolio Risk Optimization, and Statistical Arbitrage.
-  - role: Double Degree in Mathematics and Physics
-    org: University of Oviedo
-    start: 2021-09-01
-    end: 2026-06-30
-    summary: |
-      GPA: 9.5/10 (Ranked 2nd in class). Awarded 11 Honors in core quantitative subjects, including Probability, PDEs, Optimization, and Finite Differences.
-  - role: Erasmus+ (Computer Science & AI Exchange Program)
-    org: University of Split
-    start: 2024-09-01
-    end: 2025-06-30
-    summary: |
-      Specialized in advanced Deep Learning architectures (CNNs, LSTMs) and AI algorithms.
 
 skills:
   - name: Programming & ML
