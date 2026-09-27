@@ -6,29 +6,30 @@ document.addEventListener("DOMContentLoaded", function() {
             e.preventDefault();
             const email = this.getAttribute('href').replace('mailto:', '');
             navigator.clipboard.writeText(email).then(() => {
-                let toast = document.getElementById('email-toast');
-                if (!toast) {
-                    toast = document.createElement('div');
-                    toast.id = 'email-toast';
-                    toast.style.position = 'fixed';
-                    toast.style.bottom = '20px';
-                    toast.style.left = '50%';
-                    toast.style.transform = 'translateX(-50%)';
-                    toast.style.backgroundColor = '#10B981'; // Tailwind emerald-500
-                    toast.style.color = '#fff';
-                    toast.style.padding = '8px 16px';
-                    toast.style.borderRadius = '8px';
-                    toast.style.fontWeight = '500';
-                    toast.style.zIndex = '9999';
-                    toast.style.transition = 'opacity 0.3s ease-in-out';
-                    toast.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
-                    document.body.appendChild(toast);
+                let tooltip = document.getElementById('email-tooltip');
+                if (!tooltip) {
+                    tooltip = document.createElement('div');
+                    tooltip.id = 'email-tooltip';
+                    tooltip.style.position = 'fixed';
+                    tooltip.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+                    tooltip.style.color = '#fff';
+                    tooltip.style.padding = '4px 8px';
+                    tooltip.style.borderRadius = '4px';
+                    tooltip.style.fontSize = '12px';
+                    tooltip.style.zIndex = '99999';
+                    tooltip.style.transition = 'opacity 0.2s ease-in-out';
+                    tooltip.style.pointerEvents = 'none'; // so it doesn't block clicks
+                    document.body.appendChild(tooltip);
                 }
-                toast.innerText = 'Email copied: ' + email;
-                toast.style.opacity = '1';
+                tooltip.innerText = 'Copied!';
+                // Position directly near the mouse click
+                tooltip.style.left = (e.clientX + 15) + 'px';
+                tooltip.style.top = (e.clientY - 20) + 'px';
+                tooltip.style.opacity = '1';
+                
                 setTimeout(() => {
-                    toast.style.opacity = '0';
-                }, 3000);
+                    tooltip.style.opacity = '0';
+                }, 2000);
             });
         });
     });
