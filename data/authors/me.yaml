@@ -1,4 +1,4 @@
-schema: hugoblox/author/v1
+﻿schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
@@ -11,9 +11,7 @@ status:
 role: Quantitative Finance Professional
 email: anxoherrera@gmail.com
 bio: |
-  Quantitative finance professional (MEFI Master, Double Degree Math & Physics, 9.5/10 GPA).
-  Expertise in stochastic modeling, derivatives pricing (Black-Scholes), and AI-driven process optimization.
-  Proven track record in CIB building robust data pipelines, graph databases, and systematic automated workflows using Python.
+  With a rigorous STEM foundation in Mathematics and Physics and a Master's in Financial Engineering, I am actively pursuing a career in quantitative finance. Drawing from my experience in Corporate & Investment Banking, I specialize in bridging the gap between advanced mathematical theory and scalable technology. My work focuses on designing AI-driven workflows, robust data pipelines, and intelligent architectures for stochastic modeling and derivatives pricing.
 
 affiliations:
   - name: NTT DATA Europe & Latam
@@ -124,3 +122,4 @@ languages:
     label: B1
 
 awards: []
+
