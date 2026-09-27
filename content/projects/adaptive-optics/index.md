@@ -12,9 +12,11 @@ image:
   focal_point: Smart
 ---
 
+![Adaptive Optics Illustration](featured.jpg)
+
 **Grade:** 10/10 (Proposed for Honors) · **Degree:** Physics (University of Oviedo)
 
-[**📄 Download Full Thesis (PDF)**](/uploads/TFG_Física_AnxoHerrera_SinPDF.pdf)
+[**📄 Download Full Thesis (PDF)**](/uploads/TFG_Fisica_AnxoHerrera.pdf)
 
 ## Overview
 

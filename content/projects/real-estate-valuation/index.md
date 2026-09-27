@@ -13,9 +13,11 @@ image:
   focal_point: Smart
 ---
 
+![Hybrid Real Estate Valuation](featured.jpg)
+
 **Grade:** 10/10 (Proposed for Honors) · **Degree:** Mathematics (University of Oviedo)
 
-[**📄 Download Full Thesis (PDF)**](/uploads/TFG_Matemáticas_SinNombre.pdf)
+[**📄 Download Full Thesis (PDF)**](/uploads/TFG_Matematicas.pdf)
 
 **Source Code:** [github.com/AnxoHerrera/multimodal-real-estate-valuation-model](https://github.com/AnxoHerrera/multimodal-real-estate-valuation-model)
 

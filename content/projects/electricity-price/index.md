@@ -12,6 +12,8 @@ image:
   focal_point: Smart
 ---
 
+![Electricity Price Modeling](featured.jpg)
+
 **Event:** Quantitative Hackathon
 
 ## Overview
