@@ -22,7 +22,7 @@ links:
     url: mailto:anxoherrera@gmail.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/AnxoHerrera
+    url: https://github.com/AnxoH
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/anxoherrera
 
@@ -122,4 +122,5 @@ languages:
     label: B1
 
 awards: []
+
 
