@@ -1,4 +1,4 @@
-﻿schema: hugoblox/author/v1
+schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
@@ -7,7 +7,7 @@ name:
   family: Herrera
 postnominals: []
 status:
-  icon: "\U0001F4C8"
+  icon: "📈"
 role: Quantitative Finance Professional
 email: anxoherrera@gmail.com
 bio: |
@@ -19,7 +19,7 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:anxoherrera@gmail.com
+    url: 'javascript:navigator.clipboard.writeText("anxoherrera@gmail.com").then(function(){alert("Email copied!");})'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/AnxoH
@@ -39,38 +39,69 @@ experience:
     start: 2026-01-01
     end: 2026-06-30
     summary: |
-      - Designed and implemented an AI-driven process optimization solution for Banco Santander's Confirming area (300K EUR budget)
-      - Engineered automated data pipelines (Python, FastAPI, Pandas) and integrated graph databases to optimize Global Transaction Banking workflows
-      - Automated trading operations and financial reconciliation pipelines using n8n orchestration and NLP, drastically reducing manual intervention
+      Developed an AI-driven process optimization solution for Banco Santander's Confirming area (managing a €300K budget). I focused on modernizing Global Transaction Banking by replacing manual trading operations and financial reconciliation with intelligent, automated pipelines.
+
+      <div style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background-color: rgba(59, 130, 246, 0.1); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Python</span>
+        <span style="background-color: rgba(16, 185, 129, 0.1); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">FastAPI</span>
+        <span style="background-color: rgba(139, 92, 246, 0.1); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Graph Databases</span>
+        <span style="background-color: rgba(245, 158, 11, 0.1); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">n8n</span>
+        <span style="background-color: rgba(236, 72, 153, 0.1); color: #ec4899; border: 1px solid rgba(236, 72, 153, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">NLP</span>
+      </div>
   - role: Advanced Mathematics & Physics Tutor
     org: Freelance
     start: 2021-09-01
     end: 2023-06-30
     summary: |
-      - Instructed students in Multivariable Optimization, Differential Calculus, and Finite Difference Methods
+      Provided advanced academic instruction to university students, focusing on translating complex quantitative theories into intuitive, problem-solving frameworks.
+      
+      <div style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background-color: rgba(107, 114, 128, 0.1); color: #4b5563; border: 1px solid rgba(107, 114, 128, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Multivariable Optimization</span>
+        <span style="background-color: rgba(107, 114, 128, 0.1); color: #4b5563; border: 1px solid rgba(107, 114, 128, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Differential Calculus</span>
+        <span style="background-color: rgba(107, 114, 128, 0.1); color: #4b5563; border: 1px solid rgba(107, 114, 128, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Finite Difference Methods</span>
+      </div>
 
 education:
   - degree: Master in Financial Engineering & Innovation (MEFI)
-    institution: UPM/BME
+    institution: UPM / BME
     start: 2026-09-01
     end: 2027-12-31
     summary: |
-      - Awarded 50% Excellence Scholarship
-      - Focus on Quantitative Finance, Portfolio Risk Optimization, and Statistical Arbitrage
+      🏆 **Awarded 50% Excellence Scholarship** for outstanding academic record.
+      Specializing in the intersection of advanced statistical modeling and modern financial markets.
+      
+      <div style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background-color: rgba(16, 185, 129, 0.1); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Quantitative Finance</span>
+        <span style="background-color: rgba(16, 185, 129, 0.1); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Portfolio Risk Optimization</span>
+        <span style="background-color: rgba(16, 185, 129, 0.1); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Statistical Arbitrage</span>
+      </div>
   - degree: Double Degree in Mathematics and Physics
     institution: University of Oviedo
     start: 2021-09-01
     end: 2026-06-30
     summary: |
-      - GPA: 9.5/10 (Ranked 2nd in class)
-      - Awarded 11 Honors in core quantitative subjects including Probability, PDEs, Optimization, and Finite Differences
-      - Pre-University: EBAU Score of 13.7/14 (Ranked Top 10 in Asturias)
+      🏅 **GPA: 9.5/10 (Ranked 2nd in class)** | *EBAU Score of 13.7/14 (Ranked Top 10 in Asturias)*
+      
+      Graduated with **11 Honors** in core quantitative subjects, demonstrating extreme proficiency in rigorous mathematical frameworks and physical systems analysis.
+      
+      <div style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background-color: rgba(59, 130, 246, 0.1); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Probability & Statistics</span>
+        <span style="background-color: rgba(59, 130, 246, 0.1); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">PDEs</span>
+        <span style="background-color: rgba(59, 130, 246, 0.1); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Numerical Optimization</span>
+        <span style="background-color: rgba(59, 130, 246, 0.1); color: #3b82f6; border: 1px solid rgba(59, 130, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Finite Differences</span>
+      </div>
   - degree: Erasmus+ (Computer Science & AI Exchange Program)
     institution: University of Split
     start: 2024-09-01
     end: 2025-06-30
     summary: |
-      - Specialized in advanced Deep Learning architectures (CNNs, LSTMs) and AI algorithms
+      International exchange program intensely focused on artificial intelligence and neural network engineering.
+      
+      <div style="margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px;">
+        <span style="background-color: rgba(139, 92, 246, 0.1); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">Deep Learning Architectures</span>
+        <span style="background-color: rgba(139, 92, 246, 0.1); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">CNNs</span>
+        <span style="background-color: rgba(139, 92, 246, 0.1); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.2); padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;">LSTMs</span>
+      </div>
 
 skills:
   - name: Programming & ML
@@ -122,5 +153,3 @@ languages:
     label: B1
 
 awards: []
-
-
